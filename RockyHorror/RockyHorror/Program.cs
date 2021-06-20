@@ -6,7 +6,10 @@ namespace RockyHorror
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var showing = new Showing();
+            showing.Location = "Brattle";
+            showing.NumberOfSeats = 250;
+            
         }
     }
 }
